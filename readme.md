@@ -1,12 +1,12 @@
-# ncup [![Build Status](https://travis-ci.org/taoyuan/ncup.svg?branch=master)](https://travis-ci.org/taoyuan/ncup) [![Coverage Status](https://coveralls.io/repos/github/taoyuan/ncup/badge.svg?branch=master)](https://coveralls.io/github/taoyuan/ncup?branch=master)
+# ncups [![Build Status](https://travis-ci.org/taoyuan/ncups.svg?branch=master)](https://travis-ci.org/taoyuan/ncups) [![Coverage Status](https://coveralls.io/repos/github/taoyuan/ncups/badge.svg?branch=master)](https://coveralls.io/github/taoyuan/ncups?branch=master)
 
->  a tool to programmaticly add and remove cups printers to your system.
+> A tool to programmaticly add and remove cups printers to your system.
 
 
 ## Install
 
 ```
-$ npm install ncup
+$ npm install ncups
 ```
 
 ## Usage

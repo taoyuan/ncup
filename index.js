@@ -1,3 +1,3 @@
 'use strict';
 
-module.exports = require('./lib/manager');
+exports.Manager = require('./lib/manager');
