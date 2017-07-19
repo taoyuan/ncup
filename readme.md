@@ -6,7 +6,7 @@
 ## Install
 
 ```
-$ npm install ncups
+$ npm install ncups --save
 ```
 
 ## Usage

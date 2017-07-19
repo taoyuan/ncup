@@ -6,6 +6,6 @@ const Manager = require('../lib/manager');
 const manager = new Manager();
 
 (async () => {
-  console.log(await manager.findDrivers('HP DeskJet 5820 series'));
+  console.log(await manager.findDrivers());//('HP DeskJet 5820 series'));
 })();
 
