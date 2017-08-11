@@ -6,6 +6,25 @@ const Manager = require('../lib/manager');
 const manager = new Manager();
 
 (async () => {
-  console.log(await manager.findDrivers());//('HP DeskJet 5820 series'));
+  await find(['HP DeskJet 5820 series', 'HP Color LaserJet CM1312 MFP Series']);
+  await find('Brother');
 })();
+
+async function find(slugs) {
+  console.log(`* Finding drivers with slugs - [${slugs}]`);
+  let drivers = await manager.findDrivers(slugs);
+  const count = drivers && drivers.length;
+  console.log(`Found ${count} drivers --`);
+
+  if (count) {
+    if (count < 10) {
+      console.log(drivers);
+    } else {
+      console.log(drivers[0]);
+      console.log('...');
+    }
+  }
+
+  console.log('----')
+}
 
