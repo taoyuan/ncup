@@ -17,12 +17,7 @@ async function find(slugs) {
   console.log(`Found ${count} drivers --`);
 
   if (count) {
-    if (count < 10) {
-      console.log(drivers);
-    } else {
-      console.log(drivers[0]);
-      console.log('...');
-    }
+    console.log(drivers);
   }
 
   console.log('----')
