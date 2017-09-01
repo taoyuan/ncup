@@ -5,7 +5,7 @@
 const cups = require('..');
 
 (async () => {
-  await find(['HP DeskJet 5820 series', 'HP Color LaserJet CM1312 MFP Series']);
+  await find('HP DeskJet 5820 series');
   await find('Brother');
 })();
 
