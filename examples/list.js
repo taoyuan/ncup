@@ -2,10 +2,9 @@
  * Created by taoyuan on 2017/6/15.
  */
 
-const Manager = require('../lib/manager');
-const manager = new Manager();
+const cups = require('..');
 
 (async () => {
-  console.log(await manager.list());
+  console.log(await cups.list());
 })();
 

@@ -2,8 +2,7 @@
  * Created by taoyuan on 2017/6/15.
  */
 
-const Manager = require('../lib/manager');
-const manager = new Manager();
+const cups = require('..');
 
 (async () => {
   await find(['HP DeskJet 5820 series', 'HP Color LaserJet CM1312 MFP Series']);
@@ -12,7 +11,7 @@ const manager = new Manager();
 
 async function find(slugs) {
   console.log(`* Finding drivers with slugs - [${slugs}]`);
-  let drivers = await manager.findDrivers(slugs);
+  let drivers = await cups.findDrivers(slugs);
   const count = drivers && drivers.length;
   console.log(`Found ${count} drivers --`);
 

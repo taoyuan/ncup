@@ -1,3 +1,7 @@
 'use strict';
 
-exports.Manager = require('./lib/manager');
+exports = module.exports = require('./lib/cups');
+
+exports.Manager = function Manager() {
+  Object.assign(this, exports);
+};

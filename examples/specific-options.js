@@ -3,11 +3,10 @@
  */
 
 const _ = require('lodash');
-const Manager = require('../lib/manager');
-const manager = new Manager();
+const cups = require('..');
 
 (async () => {
-  const printer = await manager.get();
+  const printer = await cups.get();
   const options = await printer.fetchSpecificOptions();
   console.log('Printer Specific Options:');
   console.log('---');
