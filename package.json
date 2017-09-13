@@ -1,6 +1,6 @@
 {
   "name": "ncups",
-  "version": "0.6.0",
+  "version": "0.6.1",
   "description": "A node printer manager",
   "license": "MIT",
   "repository": "taoyuan/ncups",
