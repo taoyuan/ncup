@@ -1,0 +1,130 @@
+[
+  {
+    "uri": "cups-pdf:/",
+    "class": "file",
+    "info": "CUPS-PDF",
+    "make-and-model": "Virtual PDF Printer",
+    "device-id": "MFG:Generic;MDL:CUPS-PDF Printer;DES:Generic CUPS-PDF Printer;CLS:PRINTER;CMD:POSTSCRIPT;",
+    "location": ""
+  },
+  {
+    "uri": "hp",
+    "class": "direct",
+    "info": "HP Printer (HPLIP)",
+    "make-and-model": "Unknown",
+    "device-id": "",
+    "location": ""
+  },
+  {
+    "uri": "http",
+    "class": "network",
+    "info": "Internet Printing Protocol (http)",
+    "make-and-model": "Unknown",
+    "device-id": "",
+    "location": ""
+  },
+  {
+    "uri": "ipp14",
+    "class": "network",
+    "info": "Internet Printing Protocol (ipp14)",
+    "make-and-model": "Unknown",
+    "device-id": "",
+    "location": ""
+  },
+  {
+    "uri": "https",
+    "class": "network",
+    "info": "Internet Printing Protocol (https)",
+    "make-and-model": "Unknown",
+    "device-id": "",
+    "location": ""
+  },
+  {
+    "uri": "socket",
+    "class": "network",
+    "info": "AppSocket/HP JetDirect",
+    "make-and-model": "Unknown",
+    "device-id": "",
+    "location": ""
+  },
+  {
+    "uri": "usb://Brother/DCP-1618W?serial=E74215E7N785260",
+    "class": "direct",
+    "info": "Brother DCP-1618W",
+    "make-and-model": "Brother DCP-1618W",
+    "device-id": "MFG:Brother;CMD:PJL,HBP;MDL:DCP-1618W;CLS:PRINTER;CID:Brother Laser Type1;",
+    "location": ""
+  },
+  {
+    "uri": "lpd",
+    "class": "network",
+    "info": "LPD/LPR Host or Printer",
+    "make-and-model": "Unknown",
+    "device-id": "",
+    "location": ""
+  },
+  {
+    "uri": "ipp",
+    "class": "network",
+    "info": "Internet Printing Protocol (ipp)",
+    "make-and-model": "Unknown",
+    "device-id": "",
+    "location": ""
+  },
+  {
+    "uri": "ipps",
+    "class": "network",
+    "info": "Internet Printing Protocol (ipps)",
+    "make-and-model": "Unknown",
+    "device-id": "",
+    "location": ""
+  },
+  {
+    "uri": "smb",
+    "class": "network",
+    "info": "Windows Printer via SAMBA",
+    "make-and-model": "Unknown",
+    "device-id": "",
+    "location": ""
+  },
+  {
+    "uri": "hpfax",
+    "class": "direct",
+    "info": "HP Fax (HPLIP)",
+    "make-and-model": "Unknown",
+    "device-id": "",
+    "location": ""
+  },
+  {
+    "uri": "dnssd://Brother%20DCP-1618W._pdl-datastream._tcp.local/",
+    "class": "network",
+    "info": "Brother DCP-1618W",
+    "make-and-model": "Brother DCP-1618W",
+    "device-id": "MFG:Brother;MDL:DCP-1618W;CMD:PJL,HBP;",
+    "location": ""
+  },
+  {
+    "uri": "dnssd://Brother_DCP_1618W%20%40%20taoyuan._ipp._tcp.local/cups",
+    "class": "network",
+    "info": "Brother_DCP_1618W @ taoyuan",
+    "make-and-model": "DCP-1618W",
+    "device-id": "",
+    "location": ""
+  },
+  {
+    "uri": "dnssd://Brother_DCP_1618W_oodobot%20%40%20taoyuan._ipp._tcp.local/cups",
+    "class": "network",
+    "info": "Brother_DCP_1618W_oodobot @ taoyuan",
+    "make-and-model": "DCP-1618W",
+    "device-id": "",
+    "location": ""
+  },
+  {
+    "uri": "lpd://BRWD80F99371C36/BINARY_P1",
+    "class": "network",
+    "info": "Brother DCP-1618W",
+    "make-and-model": "Brother DCP-1618W",
+    "device-id": "MFG:Brother;CMD:PJL,HBP;MDL:DCP-1618W;CLS:PRINTER;CID:Brother Laser Type1;",
+    "location": ""
+  }
+]
