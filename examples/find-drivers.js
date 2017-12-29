@@ -6,7 +6,7 @@ const cups = require('..');
 
 (async () => {
   await find('HP DeskJet 5820 series');
-  await find('Brother');
+  await find('Brother HL-5590DN');
 })();
 
 async function find(slugs) {
