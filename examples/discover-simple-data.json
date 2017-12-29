@@ -1,0 +1,34 @@
+[
+  {
+    "uri": "usb://HP/DeskJet%205820%20series?serial=CN6C34G1KT06BP",
+    "class": "direct",
+    "info": "HP DeskJet 5820 series",
+    "makeAndModel": "HP DeskJet 5820 series",
+    "id": "MFG:HP;MDL:DeskJet 5820 series;CMD:PCL3GUI,PJL,Automatic,JPEG,PCLM,AppleRaster,PWGRaster,DW-PCL,802.11,DESKJET,DYN;CLS:PRINTER;DES:M2Q28A;CID:hpijvipav7;LEDMDIS:USB#FF#CC#00,USB#07#01#02,USB#FF#04#01;SN:CN6C34G1KT06BP;S:038000C480a00001002c2400000c1400000;Z:05000001000001,12000,17000000000000,181;",
+    "location": ""
+  },
+  {
+    "uri": "dnssd://Brother%20DCP-1618W._pdl-datastream._tcp.local./?uuid=e3248000-80ce-11db-8000-d80f99371c36",
+    "class": "network",
+    "info": "Brother DCP-1618W",
+    "makeAndModel": "Brother DCP-1618W",
+    "id": "MFG:Brother;MDL:DCP-1618W;CMD:PJL,HBP;",
+    "location": ""
+  },
+  {
+    "uri": "dnssd://Brother%20DCP-1618W%20%40%20oodobot._ipp._tcp.local./cups?uuid=bd22f0d6-2804-3f89-55d6-4ecbcbdc8a2a",
+    "class": "network",
+    "info": "Brother DCP-1618W @ oodobot",
+    "makeAndModel": "Brother Brother BrGenPrintML2 series",
+    "id": "MFG:Brother;MDL:BrGenPrintML2 series;CMD:PDF,PS,JPEG,PNG,PWG,URF;",
+    "location": ""
+  },
+  {
+    "uri": "dnssd://HP%20DeskJet%205820%20series%20%5B7AABDC%5D._ipps._tcp.local./?uuid=1c852a4d-b800-1f08-abcd-98e7f47aabdc",
+    "class": "network",
+    "info": "HP DeskJet 5820 series [7AABDC]",
+    "makeAndModel": "HP DeskJet 5820 series",
+    "id": "MFG:HP;MDL:DeskJet 5820 series;CMD:PCL,JPEG,URF,PWG;",
+    "location": ""
+  }
+]

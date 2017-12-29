@@ -5,6 +5,6 @@
 const cups = require('..');
 
 (async () => {
-  console.log(await cups.discover({flat: true}));
+  console.log(await cups.discover({flat: true, simple: true}));
 })();
 
