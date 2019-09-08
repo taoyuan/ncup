@@ -1,4 +1,4 @@
-# ncups [![Build Status](https://travis-ci.org/taoyuan/ncups.svg?branch=master)](https://travis-ci.org/taoyuan/ncups) [![Coverage Status](https://coveralls.io/repos/github/taoyuan/ncups/badge.svg?branch=master)](https://coveralls.io/github/taoyuan/ncups?branch=master)
+# ncups [![Build Status](https://travis-ci.org/taoyuan/ncups.svg?branch=master)](https://travis-ci.org/taoyuan/ncups) [![Coverage Status](https://coveralls.io/repos/github/taoyuan/ncups/badge.svg?branch=master)](https://coveralls.io/github/taoyuan/ncups?branch=master) [![Greenkeeper badge](https://badges.greenkeeper.io/taoyuan/ncups.svg)](https://greenkeeper.io/)
 
 > A tool to programmaticly add and remove cups printers to your system.
 
